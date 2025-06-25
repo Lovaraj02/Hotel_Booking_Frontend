@@ -1,0 +1,86 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  background-color: white;
+}
+
+.login-card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.login-card img {
+  width: 100px; /* Adjust image size as needed */
+  margin: 0 auto 20px;
+}
+
+.login-button {
+  background-color: blueviolet;
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.lab{
+  display: flex;
+  flex-direction: column;
+}
+.lab label{
+  text-align: start;
+  font-size: 1.4rem;
+  line-height: 40px;
+}
+.lab input{
+  width: 350px;
+  padding: 6px 0px;
+  
+}
+ 
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .login-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .login-button {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .lab input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-card {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .login-button {
+    font-size: 16px;
+    height: 45px;
+  }
+
+  .lab label {
+    font-size: 1.2rem;
+  }
+
+  .lab input {
+    padding: 4px 0px;
+  }
+}
+
+
