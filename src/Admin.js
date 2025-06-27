@@ -16,7 +16,7 @@ const Admin = () => {
   }
 
   const handleLogin = () => {
-    if (username === 'admin' && password === 'Admin@678') {
+    if (username === 'admin' && password === 'Admin123') {
       navigate('/data');
     }
   }

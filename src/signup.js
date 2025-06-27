@@ -9,7 +9,7 @@ const Signup = () => {
     email:'',
     password: '',
   });
-  const backend_api = 'http://localhost:4000/addlogin';
+  const backend_api = 'https://hotel-booking-backend-cvxr.onrender.com/addlogin';
 
   const handleSubmit = (e) => {
     e.preventDefault();

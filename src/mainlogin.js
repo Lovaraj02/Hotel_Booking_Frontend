@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const MainLogin = () => {
-  const text = "Go through the User Login and enter your credentials";
+  const text = "For Admin login ==> username: admin, pass: Admin123";
   const [displayedText, setDisplayedText] = useState(""); 
   const [index, setIndex] = useState(0); 
   useEffect(() => {

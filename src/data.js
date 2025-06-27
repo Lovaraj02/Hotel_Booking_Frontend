@@ -9,7 +9,7 @@ function Data() {
   const [showCount, setShowCount] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:4000/getdata')
+    axios.get('https://hotel-booking-backend-cvxr.onrender.com/getdata')
       .then((response) => {
         setRev(response.data.reservedata);
       });
